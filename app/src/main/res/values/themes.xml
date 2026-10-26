@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AppFotos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#2F5D50</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.AppFotos" parent="Base.Theme.AppFotos" />
+</resources>

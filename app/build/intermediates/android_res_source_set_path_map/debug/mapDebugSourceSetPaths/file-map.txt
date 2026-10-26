@@ -1,0 +1,8 @@
+xyz.rso.appfotos.app-pngs-0 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\build\generated\res\pngs\debug
+xyz.rso.appfotos.app-updated_navigation_xml-1 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\build\generated\updated_navigation_xml\debug
+xyz.rso.appfotos.app-packageDebugResources-2 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+xyz.rso.appfotos.app-packageDebugResources-3 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+xyz.rso.appfotos.app-debug-4 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\build\intermediates\merged_res\debug\mergeDebugResources
+xyz.rso.appfotos.app-debug-5 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\debug\res
+xyz.rso.appfotos.app-main-6 C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\res
+gradleHome-0 C:\Users\Guardia Nacional\.gradle

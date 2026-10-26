@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="xyz.rso.appfotos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="35"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <uses-feature
+15-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:9:5-85
+16        android:name="android.hardware.camera"
+16-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:9:19-57
+17        android:required="false" />
+17-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:9:58-82
+18
+19    <permission
+19-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:22:5-24:47
+20        android:name="xyz.rso.appfotos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="xyz.rso.appfotos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:11:5-45:19
+26        android:allowBackup="true"
+26-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.19.1] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\bbe3a69ff4db177b6a89008785eab435\transformed\core-1.19.1\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+29-->INJECTED
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:13:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:14:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:15:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:16:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.AppFotos" >
+35-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:17:9-46
+36        <provider
+36-->INJECTED
+37            android:name="androidx.core.content.FileProvider"
+37-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:21:13-62
+38            android:authorities="xyz.rso.appfotos.fileprovider"
+38-->INJECTED
+39            android:exported="false"
+39-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:23:13-37
+40            android:grantUriPermissions="true" >
+40-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:24:13-47
+41            <meta-data
+41-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:25:13-27:54
+42                android:name="android.support.FILE_PROVIDER_PATHS"
+42-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:26:17-67
+43                android:resource="@xml/file_paths" />
+43-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:27:17-51
+44        </provider>
+45
+46        <activity
+46-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:30:9-37:20
+47            android:name="xyz.rso.appfotos.MainActivity"
+47-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:31:13-41
+48            android:exported="true" >
+48-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:32:13-36
+49            <intent-filter>
+49-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:33:13-36:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:34:17-69
+50-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:34:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:35:17-77
+52-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:35:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:39:9-90
+56            android:name="xyz.rso.appfotos.activities.RegistroActivity"
+56-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:39:19-62
+57            android:exported="false" />
+57-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:39:63-87
+58        <activity
+58-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:40:9-86
+59            android:name="xyz.rso.appfotos.activities.MenuActivity"
+59-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:40:19-58
+60            android:exported="false" />
+60-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:40:59-83
+61        <activity
+61-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:41:9-91
+62            android:name="xyz.rso.appfotos.activities.TomarFotoActivity"
+62-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:41:19-63
+63            android:exported="false" />
+63-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:41:64-88
+64        <activity
+64-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:42:9-90
+65            android:name="xyz.rso.appfotos.activities.VerFotosActivity"
+65-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:42:19-62
+66            android:exported="false" />
+66-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:42:63-87
+67        <activity
+67-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:43:9-93
+68            android:name="xyz.rso.appfotos.activities.DetalleFotoActivity"
+68-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:43:19-65
+69            android:exported="false" />
+69-->C:\Users\Guardia Nacional\AndroidStudioProjects\AppFotos\app\src\main\AndroidManifest.xml:43:66-90
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\478a0c75e072a3d948369fa6c9872e01\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\478a0c75e072a3d948369fa6c9872e01\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\478a0c75e072a3d948369fa6c9872e01\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\478a0c75e072a3d948369fa6c9872e01\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\f33e6925da186dfa899a1ccb772917fe\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\f33e6925da186dfa899a1ccb772917fe\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\f33e6925da186dfa899a1ccb772917fe\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="xyz.rso.appfotos.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\a0fd478c3c6dae769c3266ad15ef524f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\11628c96786aeda34e51396f810e24ea\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\11628c96786aeda34e51396f810e24ea\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\11628c96786aeda34e51396f810e24ea\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Guardia Nacional\.gradle\caches\9.4.1\transforms\84fc98be244acbc8158986b260759561\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>
